@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+/* Begin PBXBuildFile section */
+		1F841A52C8AF428F99A248F6 = {isa = PBXBuildFile; fileRef = E720EA03ADD948268CE15F0C /* WhisperAIApp.swift */; };
+		9D979BD5D21143129CA12AA4 = {isa = PBXBuildFile; fileRef = 78F0CE10295C4929919818D9 /* AppDelegate.swift */; };
+		95CEB59A442043CF8DE4332A = {isa = PBXBuildFile; fileRef = 4D5DD2B0BEBF48839F240924 /* Extensions.swift */; };
+		0E5C582D39504B83B997D7EE = {isa = PBXBuildFile; fileRef = 8164F1AA35504DBFB0BCC350 /* AppSettings.swift */; };
+		144B2A09273C49F1BAF3EBAB = {isa = PBXBuildFile; fileRef = 5FC37B8A20CE42D78CA61CB8 /* InterviewSession.swift */; };
+		DBFFC510689F4428BC304009 = {isa = PBXBuildFile; fileRef = AC79FE4BACF8483A9DE9EED1 /* PDFReader.swift */; };
+		19E3C1B66D7B4CBBBD825982 = {isa = PBXBuildFile; fileRef = 695FE65376A243C0A952C336 /* AudioEngine.swift */; };
+		36DAB19B410C42B3A265647F = {isa = PBXBuildFile; fileRef = 2D416813975445B5BB940EEE /* AIPipeline.swift */; };
+		735DDB4093994B37A8713EDE = {isa = PBXBuildFile; fileRef = 8FCA913EB7BA403CA1CE5A5F /* Prompts.swift */; };
+		0B29A9AB79CA4EE2B7E36CEB = {isa = PBXBuildFile; fileRef = 487A49623F8A49CEACCB1FC5 /* ScreenOCR.swift */; };
+		EC25960321E64A968F3CDF7E = {isa = PBXBuildFile; fileRef = E8513E2DD89E43118EBADBF7 /* OverlayWindowController.swift */; };
+		77382BBF2DB54D00A9703988 = {isa = PBXBuildFile; fileRef = 42890C68239E497089784B48 /* OverlayView.swift */; };
+		B37451CC155A42FC9AA7EEB9 = {isa = PBXBuildFile; fileRef = 908C8F89489740C8B38F2D48 /* SetupView.swift */; };
+		33001C454903484E8E6FF5FF = {isa = PBXBuildFile; fileRef = 98E6CC92537244C3BA95CD7C /* LiveSessionView.swift */; };
+		4B88FAAB340C42B08553030E = {isa = PBXBuildFile; fileRef = 4508081EFEC24EE48D502634 /* SettingsView.swift */; };
+		1B0A45927B214D0FBEFEBC28 = {isa = PBXBuildFile; fileRef = 821495C1DEC14870B603412A /* FABWindowController.swift */; };
+		54A6972DB3C849E5BE041BB3 = {isa = PBXBuildFile; fileRef = A02AD8342A594FBE9573E8C4 /* HotkeyManager.swift */; };
+		05B87AB5FAA74627AA232436 = {isa = PBXBuildFile; fileRef = 24140135D0C74F94A342B44B /* Assets.xcassets */; };
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E720EA03ADD948268CE15F0C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperAIApp.swift; sourceTree = "<group>"; };
+		78F0CE10295C4929919818D9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D5DD2B0BEBF48839F240924 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8164F1AA35504DBFB0BCC350 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		5FC37B8A20CE42D78CA61CB8 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewSession.swift; sourceTree = "<group>"; };
+		AC79FE4BACF8483A9DE9EED1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReader.swift; sourceTree = "<group>"; };
+		695FE65376A243C0A952C336 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		2D416813975445B5BB940EEE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIPipeline.swift; sourceTree = "<group>"; };
+		8FCA913EB7BA403CA1CE5A5F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompts.swift; sourceTree = "<group>"; };
+		487A49623F8A49CEACCB1FC5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOCR.swift; sourceTree = "<group>"; };
+		E8513E2DD89E43118EBADBF7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindowController.swift; sourceTree = "<group>"; };
+		42890C68239E497089784B48 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		908C8F89489740C8B38F2D48 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		98E6CC92537244C3BA95CD7C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionView.swift; sourceTree = "<group>"; };
+		4508081EFEC24EE48D502634 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		821495C1DEC14870B603412A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABWindowController.swift; sourceTree = "<group>"; };
+		A02AD8342A594FBE9573E8C4 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		643C8B7B09E2469EB12ED57D = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhisperAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99490C1DAA4F4B4E928CFD2A = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC6B12D6EC34B969F2A63A9 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhisperAI.entitlements; sourceTree = "<group>"; };
+		24140135D0C74F94A342B44B = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE237B74C1AB460B8FE507C9 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE9395C687C84F2C966DEFB1 = {
+			isa = PBXGroup;
+			children = (
+				8164F1AA35504DBFB0BCC350,
+				5FC37B8A20CE42D78CA61CB8,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40FAB15C28004D21B0EB4FF8 = {
+			isa = PBXGroup;
+			children = (
+				AC79FE4BACF8483A9DE9EED1,
+				695FE65376A243C0A952C336,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		E7E7BF7A2CDD4723B62F1157 = {
+			isa = PBXGroup;
+			children = (
+				2D416813975445B5BB940EEE,
+				8FCA913EB7BA403CA1CE5A5F,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		B74594DA7F5C4084B84A5CCC = {
+			isa = PBXGroup;
+			children = (
+				487A49623F8A49CEACCB1FC5,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		002F5AFBE6D14097B5196F96 = {
+			isa = PBXGroup;
+			children = (
+				E8513E2DD89E43118EBADBF7,
+				42890C68239E497089784B48,
+				908C8F89489740C8B38F2D48,
+				98E6CC92537244C3BA95CD7C,
+				4508081EFEC24EE48D502634,
+				821495C1DEC14870B603412A,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CC691638B10C413E9D45ECD4 = {
+			isa = PBXGroup;
+			children = (
+				A02AD8342A594FBE9573E8C4,
+			);
+			path = Hotkeys;
+			sourceTree = "<group>";
+		};
+		65997624259F41AB92CE6276 = {
+			isa = PBXGroup;
+			children = (
+				E720EA03ADD948268CE15F0C,
+				78F0CE10295C4929919818D9,
+				4D5DD2B0BEBF48839F240924,
+				BE9395C687C84F2C966DEFB1,
+				40FAB15C28004D21B0EB4FF8,
+				E7E7BF7A2CDD4723B62F1157,
+				B74594DA7F5C4084B84A5CCC,
+				002F5AFBE6D14097B5196F96,
+				CC691638B10C413E9D45ECD4,
+				99490C1DAA4F4B4E928CFD2A,
+				7FC6B12D6EC34B969F2A63A9,
+				24140135D0C74F94A342B44B,
+			);
+			path = WhisperAI;
+			sourceTree = "<group>";
+		};
+		A36D97EE31024167A5BDA9FA = {
+			isa = PBXGroup;
+			children = (
+				643C8B7B09E2469EB12ED57D,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31E49C6661A4B1F8FFCBFB5 = {
+			isa = PBXGroup;
+			children = (
+				65997624259F41AB92CE6276,
+				A36D97EE31024167A5BDA9FA,
+			);
+			name = WhisperAISwift;
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20DAF8E128AF470A949C7A92 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDC71C3C65B4404A8C6EC22;
+			buildPhases = (
+				AC41A94684B045C29E2EF99D,
+				FE237B74C1AB460B8FE507C9,
+				ACE1C3372D844D5E9722D9BA,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhisperAI;
+			productName = WhisperAI;
+			productReference = 643C8B7B09E2469EB12ED57D;
+			productType = "com.apple.product-type.application";
+		};
+
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		860FD439BE1D4F1D853D455B = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					20DAF8E128AF470A949C7A92 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = B52F67694E434353A826E8CC;
+			compatibilityVersion = "Xcode 15.0";
+			mainGroup = A31E49C6661A4B1F8FFCBFB5;
+			productsGroup = A36D97EE31024167A5BDA9FA;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20DAF8E128AF470A949C7A92,
+			);
+		};
+
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE1C3372D844D5E9722D9BA = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B87AB5FAA74627AA232436,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC41A94684B045C29E2EF99D = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F841A52C8AF428F99A248F6,
+				9D979BD5D21143129CA12AA4,
+				95CEB59A442043CF8DE4332A,
+				0E5C582D39504B83B997D7EE,
+				144B2A09273C49F1BAF3EBAB,
+				DBFFC510689F4428BC304009,
+				19E3C1B66D7B4CBBBD825982,
+				36DAB19B410C42B3A265647F,
+				735DDB4093994B37A8713EDE,
+				0B29A9AB79CA4EE2B7E36CEB,
+				EC25960321E64A968F3CDF7E,
+				77382BBF2DB54D00A9703988,
+				B37451CC155A42FC9AA7EEB9,
+				33001C454903484E8E6FF5FF,
+				4B88FAAB340C42B08553030E,
+				1B0A45927B214D0FBEFEBC28,
+				54A6972DB3C849E5BE041BB3,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77DD90A28D1E424DB5529CD0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WhisperAI/WhisperAI.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = WhisperAI/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whisperai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66AE2935BD3C47ADBA5652E3 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WhisperAI/WhisperAI.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = WhisperAI/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whisperai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B52F67694E434353A826E8CC = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DD90A28D1E424DB5529CD0,
+				66AE2935BD3C47ADBA5652E3,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDC71C3C65B4404A8C6EC22 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DD90A28D1E424DB5529CD0,
+				66AE2935BD3C47ADBA5652E3,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 860FD439BE1D4F1D853D455B;
+}
